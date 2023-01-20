@@ -24,7 +24,7 @@ jobs:
 
       - name: Install deps
         run: |
-          echo "Nothing to be done here."
+          sudo apt install ninja-build
       - name: Build project.
         run: |
           mkdir build
